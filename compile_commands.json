@@ -1,0 +1,38 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc-13",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pedantic",
+      "-std=c2x",
+      "-I./includes/",
+      "-c",
+      "-o",
+      "objs/chip8.o",
+      "src/chip8.c"
+    ],
+    "directory": "/home/daav/chip8_emu",
+    "file": "/home/daav/chip8_emu/src/chip8.c",
+    "output": "/home/daav/chip8_emu/objs/chip8.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc-13",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pedantic",
+      "-std=c2x",
+      "-I./includes/",
+      "-c",
+      "-o",
+      "objs/stack.o",
+      "src/stack.c"
+    ],
+    "directory": "/home/daav/chip8_emu",
+    "file": "/home/daav/chip8_emu/src/stack.c",
+    "output": "/home/daav/chip8_emu/objs/stack.o"
+  }
+]
