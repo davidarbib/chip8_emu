@@ -122,6 +122,7 @@ void destroy_stack(t_stack *stack)
     stack->size = 0;
 }
 
+/*
 //------------------tests-----------------------//
 int main()
 {
@@ -164,3 +165,4 @@ int main()
     destroy_stack(&st1);
     return EXIT_SUCCESS;
 }
+*/
